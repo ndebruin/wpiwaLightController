@@ -1,0 +1,1482 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e1db8803-e6ab-42de-9093-eb756e1deb30")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74AHCT125"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHCT125"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "buffer 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHCT125_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_5_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "V5.0"
+		(shape bidirectional)
+		(at 82.55 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0683eaeb-fa2b-4066-8b48-15d963e134d4")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 82.55 85.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ecc3725-a5d6-49f8-9a3f-423e31465e9a")
+	)
+	(hierarchical_label "LED3_IN"
+		(shape bidirectional)
+		(at 113.03 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2861c336-2427-460a-8194-e771acef1db3")
+	)
+	(hierarchical_label "LED2_IN"
+		(shape bidirectional)
+		(at 113.03 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a972034-205d-4f9b-93ef-ee6ac9e5aa8d")
+	)
+	(hierarchical_label "LED2_OUT"
+		(shape bidirectional)
+		(at 135.89 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e506257-16f1-4a83-8f86-03c734901644")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 120.65 45.72 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55ef1f46-ac20-480a-b798-98634ed9e4cc")
+	)
+	(hierarchical_label "LED4_IN"
+		(shape bidirectional)
+		(at 113.03 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "581808e6-dace-48b3-a849-20e2e8a4450c")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 120.65 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "584e1235-3582-4959-aab2-5c02f7892f75")
+	)
+	(hierarchical_label "LED1_IN"
+		(shape bidirectional)
+		(at 113.03 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70ad0d76-336c-4df2-8b7e-03a2cc78961d")
+	)
+	(hierarchical_label "LED1_OUT"
+		(shape bidirectional)
+		(at 135.89 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "766e0fb5-aa62-44e4-8602-db35d7d73e57")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 120.65 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f520715-9ef9-4428-8e5f-9fbfc4f141ea")
+	)
+	(hierarchical_label "LED4_OUT"
+		(shape bidirectional)
+		(at 135.89 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c080068b-c91e-47de-a2e1-699a1db9438b")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 120.65 116.84 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c19aaec7-f231-46f2-8fef-7730d78a0572")
+	)
+	(hierarchical_label "LED3_OUT"
+		(shape bidirectional)
+		(at 135.89 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cce4f740-80dd-4130-ae27-e4cd0548b257")
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 120.65 86.36 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "176dd60f-df5d-40ea-8f0b-42784e716e27")
+		(property "Reference" "U2"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3453fe3e-e6a6-4962-ac9f-7279a7c40224")
+		)
+		(pin "14"
+			(uuid "0ba5975c-530a-424d-944e-7a14aa8b402b")
+		)
+		(pin "10"
+			(uuid "a0d6a71e-3499-4d77-b3ab-9ebd80f1bc6d")
+		)
+		(pin "9"
+			(uuid "b2be1775-4394-4000-9f5a-0c9d7bab8551")
+		)
+		(pin "8"
+			(uuid "38c8cd7e-c5fe-4026-9429-788130050a95")
+		)
+		(pin "13"
+			(uuid "4be2e115-8259-4da1-ac0b-3fe9871c7f78")
+		)
+		(pin "4"
+			(uuid "a7959f90-f447-40a7-83a5-ea4cb592b251")
+		)
+		(pin "1"
+			(uuid "f313eeea-b379-49bd-9d6a-0d5e2001ecc3")
+		)
+		(pin "2"
+			(uuid "8ad539ec-d22b-47e4-bf20-64d5de0ba35e")
+		)
+		(pin "7"
+			(uuid "32457b7c-ac6e-4567-a98e-57a960bcce9c")
+		)
+		(pin "5"
+			(uuid "2fa25a7a-1f55-43ac-972c-6e4e4c72d768")
+		)
+		(pin "12"
+			(uuid "fa189fbb-19e0-499d-8de7-28aa23ec9dcb")
+		)
+		(pin "6"
+			(uuid "83e1fdce-16e8-40ac-89c0-41f1750c7985")
+		)
+		(pin "11"
+			(uuid "7446494a-aeb4-477e-afca-e725d61d579a")
+		)
+		(instances
+			(project ""
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19487cd6-82fe-4c1e-940e-c4e15b7146c0")
+		(property "Reference" "R5"
+			(at 132.08 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 132.08 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 132.08 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "596d3eb6-7ab8-43e5-aa98-849e732ff433")
+		)
+		(pin "1"
+			(uuid "9f2b2d40-d96b-44e3-81ba-81b0166adf14")
+		)
+		(instances
+			(project "wpiwaNDWSID"
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 120.65 110.49 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f4c03a-a5e5-4b74-b6dd-0f7120e96926")
+		(property "Reference" "U2"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3453fe3e-e6a6-4962-ac9f-7279a7c40224")
+		)
+		(pin "14"
+			(uuid "0ba5975c-530a-424d-944e-7a14aa8b402b")
+		)
+		(pin "10"
+			(uuid "a0d6a71e-3499-4d77-b3ab-9ebd80f1bc6d")
+		)
+		(pin "9"
+			(uuid "b2be1775-4394-4000-9f5a-0c9d7bab8551")
+		)
+		(pin "8"
+			(uuid "38c8cd7e-c5fe-4026-9429-788130050a95")
+		)
+		(pin "13"
+			(uuid "4be2e115-8259-4da1-ac0b-3fe9871c7f78")
+		)
+		(pin "4"
+			(uuid "a7959f90-f447-40a7-83a5-ea4cb592b251")
+		)
+		(pin "1"
+			(uuid "f313eeea-b379-49bd-9d6a-0d5e2001ecc3")
+		)
+		(pin "2"
+			(uuid "8ad539ec-d22b-47e4-bf20-64d5de0ba35e")
+		)
+		(pin "7"
+			(uuid "32457b7c-ac6e-4567-a98e-57a960bcce9c")
+		)
+		(pin "5"
+			(uuid "2fa25a7a-1f55-43ac-972c-6e4e4c72d768")
+		)
+		(pin "12"
+			(uuid "fa189fbb-19e0-499d-8de7-28aa23ec9dcb")
+		)
+		(pin "6"
+			(uuid "83e1fdce-16e8-40ac-89c0-41f1750c7985")
+		)
+		(pin "11"
+			(uuid "7446494a-aeb4-477e-afca-e725d61d579a")
+		)
+		(instances
+			(project ""
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60e514e0-81c8-454c-81fc-cbcfd5237b1e")
+		(property "Reference" "R2"
+			(at 132.08 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 132.08 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 132.08 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4091859-2de9-4dc2-88c0-3d37af95c46a")
+		)
+		(pin "1"
+			(uuid "991dd306-030a-40c7-816e-574095af2cbc")
+		)
+		(instances
+			(project ""
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 82.55 72.39 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a71c7f-c870-406a-ae2e-9ba6ae39305a")
+		(property "Reference" "U2"
+			(at 88.9 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 88.9 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 82.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 82.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 82.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3453fe3e-e6a6-4962-ac9f-7279a7c40224")
+		)
+		(pin "14"
+			(uuid "0ba5975c-530a-424d-944e-7a14aa8b402b")
+		)
+		(pin "10"
+			(uuid "a0d6a71e-3499-4d77-b3ab-9ebd80f1bc6d")
+		)
+		(pin "9"
+			(uuid "b2be1775-4394-4000-9f5a-0c9d7bab8551")
+		)
+		(pin "8"
+			(uuid "38c8cd7e-c5fe-4026-9429-788130050a95")
+		)
+		(pin "13"
+			(uuid "4be2e115-8259-4da1-ac0b-3fe9871c7f78")
+		)
+		(pin "4"
+			(uuid "a7959f90-f447-40a7-83a5-ea4cb592b251")
+		)
+		(pin "1"
+			(uuid "f313eeea-b379-49bd-9d6a-0d5e2001ecc3")
+		)
+		(pin "2"
+			(uuid "8ad539ec-d22b-47e4-bf20-64d5de0ba35e")
+		)
+		(pin "7"
+			(uuid "32457b7c-ac6e-4567-a98e-57a960bcce9c")
+		)
+		(pin "5"
+			(uuid "2fa25a7a-1f55-43ac-972c-6e4e4c72d768")
+		)
+		(pin "12"
+			(uuid "fa189fbb-19e0-499d-8de7-28aa23ec9dcb")
+		)
+		(pin "6"
+			(uuid "83e1fdce-16e8-40ac-89c0-41f1750c7985")
+		)
+		(pin "11"
+			(uuid "7446494a-aeb4-477e-afca-e725d61d579a")
+		)
+		(instances
+			(project ""
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 120.65 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac17b78-c74b-4b29-a989-e9ce9360d543")
+		(property "Reference" "U2"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 120.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 120.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 120.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3453fe3e-e6a6-4962-ac9f-7279a7c40224")
+		)
+		(pin "14"
+			(uuid "0ba5975c-530a-424d-944e-7a14aa8b402b")
+		)
+		(pin "10"
+			(uuid "a0d6a71e-3499-4d77-b3ab-9ebd80f1bc6d")
+		)
+		(pin "9"
+			(uuid "b2be1775-4394-4000-9f5a-0c9d7bab8551")
+		)
+		(pin "8"
+			(uuid "38c8cd7e-c5fe-4026-9429-788130050a95")
+		)
+		(pin "13"
+			(uuid "4be2e115-8259-4da1-ac0b-3fe9871c7f78")
+		)
+		(pin "4"
+			(uuid "a7959f90-f447-40a7-83a5-ea4cb592b251")
+		)
+		(pin "1"
+			(uuid "f313eeea-b379-49bd-9d6a-0d5e2001ecc3")
+		)
+		(pin "2"
+			(uuid "8ad539ec-d22b-47e4-bf20-64d5de0ba35e")
+		)
+		(pin "7"
+			(uuid "32457b7c-ac6e-4567-a98e-57a960bcce9c")
+		)
+		(pin "5"
+			(uuid "2fa25a7a-1f55-43ac-972c-6e4e4c72d768")
+		)
+		(pin "12"
+			(uuid "fa189fbb-19e0-499d-8de7-28aa23ec9dcb")
+		)
+		(pin "6"
+			(uuid "83e1fdce-16e8-40ac-89c0-41f1750c7985")
+		)
+		(pin "11"
+			(uuid "7446494a-aeb4-477e-afca-e725d61d579a")
+		)
+		(instances
+			(project ""
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a5affc8-5250-4530-be17-24f05c98315a")
+		(property "Reference" "R4"
+			(at 132.08 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 132.08 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 132.08 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "508cebe5-4101-49e9-a9d1-6f2a776ecec2")
+		)
+		(pin "1"
+			(uuid "2d8a7302-4ffa-4b25-b555-66c3450f7138")
+		)
+		(instances
+			(project "wpiwaNDWSID"
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f31237bf-36af-4a9a-a701-ca6ee51b8d9a")
+		(property "Reference" "R3"
+			(at 132.08 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 132.08 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 132.08 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53df06eb-4614-4fda-97ee-c4dc3ac0381b")
+		)
+		(pin "1"
+			(uuid "c13cfbd9-c720-4f3b-857b-555d5c589143")
+		)
+		(instances
+			(project "wpiwaNDWSID"
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 120.65 63.5 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff97662f-6e70-4866-945b-9a3b620f3062")
+		(property "Reference" "U2"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3453fe3e-e6a6-4962-ac9f-7279a7c40224")
+		)
+		(pin "14"
+			(uuid "0ba5975c-530a-424d-944e-7a14aa8b402b")
+		)
+		(pin "10"
+			(uuid "a0d6a71e-3499-4d77-b3ab-9ebd80f1bc6d")
+		)
+		(pin "9"
+			(uuid "b2be1775-4394-4000-9f5a-0c9d7bab8551")
+		)
+		(pin "8"
+			(uuid "38c8cd7e-c5fe-4026-9429-788130050a95")
+		)
+		(pin "13"
+			(uuid "4be2e115-8259-4da1-ac0b-3fe9871c7f78")
+		)
+		(pin "4"
+			(uuid "a7959f90-f447-40a7-83a5-ea4cb592b251")
+		)
+		(pin "1"
+			(uuid "f313eeea-b379-49bd-9d6a-0d5e2001ecc3")
+		)
+		(pin "2"
+			(uuid "8ad539ec-d22b-47e4-bf20-64d5de0ba35e")
+		)
+		(pin "7"
+			(uuid "32457b7c-ac6e-4567-a98e-57a960bcce9c")
+		)
+		(pin "5"
+			(uuid "2fa25a7a-1f55-43ac-972c-6e4e4c72d768")
+		)
+		(pin "12"
+			(uuid "fa189fbb-19e0-499d-8de7-28aa23ec9dcb")
+		)
+		(pin "6"
+			(uuid "83e1fdce-16e8-40ac-89c0-41f1750c7985")
+		)
+		(pin "11"
+			(uuid "7446494a-aeb4-477e-afca-e725d61d579a")
+		)
+		(instances
+			(project ""
+				(path "/4f28ee59-d9ac-4dfb-922f-af5c6097cb64/b37b9310-7296-4533-8f70-fa9a758099d6"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+)
