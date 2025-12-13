@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.64,
-          "width": 0.715
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,24 +60,12 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_symbol_mismatch|130732500|122550000|abe3d2a8-2c44-409a-8b99-26b86b45b92a|00000000-0000-0000-0000-000000000000",
+          "footprint_symbol_mismatch|191498500|102816000|e7beff03-ece2-4081-9119-bed86950593a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "footprint_symbol_mismatch|130982500|114400000|675097c0-f03a-489d-a41a-24bd8b69a3a2|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|198155000|92080000|9dce2be7-97d4-4807-bd1a-99b732e8dcd9|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "footprint_symbol_mismatch|146882500|121100000|5a9bf7f6-6a83-4169-9468-e9fe18f71fce|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_symbol_mismatch|161850000|123300000|3fe02340-860e-4d1a-b2af-53920bb1e5b0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|166065000|111295606|b130be61-832b-4598-837f-c7d35fa49abf|00000000-0000-0000-0000-000000000000",
-          "Changed to match JLC restrictions."
         ]
       ],
       "meta": {
@@ -496,7 +484,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

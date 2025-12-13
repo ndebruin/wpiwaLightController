@@ -531,6 +531,52 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 128.27 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c560277d-b5e0-431c-9cbb-73c44b45c753")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c60c19a-4a5f-46b8-ae9d-a74a5aecfb32")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beae106c-8a72-4514-ab97-e193195e1e77")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f1536c-565c-43e2-84f1-851ea7b618e5")
+	)
+	(wire
+		(pts
+			(xy 128.27 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaa2cac-13a9-410d-bebc-8e5bc3f5b1ed")
+	)
 	(hierarchical_label "V5.0"
 		(shape bidirectional)
 		(at 82.55 59.69 90)
@@ -555,7 +601,7 @@
 	)
 	(hierarchical_label "LED3_IN"
 		(shape bidirectional)
-		(at 113.03 86.36 180)
+		(at 110.49 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -566,7 +612,7 @@
 	)
 	(hierarchical_label "LED2_IN"
 		(shape bidirectional)
-		(at 113.03 63.5 180)
+		(at 113.03 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -577,7 +623,7 @@
 	)
 	(hierarchical_label "LED2_OUT"
 		(shape bidirectional)
-		(at 135.89 63.5 0)
+		(at 135.89 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -599,7 +645,7 @@
 	)
 	(hierarchical_label "LED4_IN"
 		(shape bidirectional)
-		(at 113.03 110.49 180)
+		(at 113.03 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -621,7 +667,7 @@
 	)
 	(hierarchical_label "LED1_IN"
 		(shape bidirectional)
-		(at 113.03 39.37 180)
+		(at 113.03 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -632,7 +678,7 @@
 	)
 	(hierarchical_label "LED1_OUT"
 		(shape bidirectional)
-		(at 135.89 39.37 0)
+		(at 135.89 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -654,7 +700,7 @@
 	)
 	(hierarchical_label "LED4_OUT"
 		(shape bidirectional)
-		(at 135.89 110.49 0)
+		(at 138.43 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -676,7 +722,7 @@
 	)
 	(hierarchical_label "LED3_OUT"
 		(shape bidirectional)
-		(at 135.89 86.36 0)
+		(at 142.24 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,7 +837,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 110.49 90)
+		(at 134.62 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -800,7 +846,7 @@
 		(fields_autoplaced yes)
 		(uuid "19487cd6-82fe-4c1e-940e-c4e15b7146c0")
 		(property "Reference" "R7"
-			(at 132.08 104.14 90)
+			(at 134.62 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +854,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 132.08 106.68 90)
+			(at 134.62 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +862,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 132.08 112.268 90)
+			(at 134.62 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 110.49 0)
+			(at 134.62 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +880,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 110.49 0)
+			(at 134.62 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1009,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 39.37 90)
+		(at 132.08 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -972,7 +1018,7 @@
 		(fields_autoplaced yes)
 		(uuid "60e514e0-81c8-454c-81fc-cbcfd5237b1e")
 		(property "Reference" "R4"
-			(at 132.08 33.02 90)
+			(at 132.08 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +1026,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 132.08 35.56 90)
+			(at 132.08 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +1034,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 132.08 41.148 90)
+			(at 132.08 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +1043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 39.37 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1052,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 39.37 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1287,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 86.36 90)
+		(at 138.43 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1250,7 +1296,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a5affc8-5250-4530-be17-24f05c98315a")
 		(property "Reference" "R6"
-			(at 132.08 80.01 90)
+			(at 138.43 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1304,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 132.08 82.55 90)
+			(at 138.43 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1312,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 132.08 88.138 90)
+			(at 138.43 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 86.36 0)
+			(at 138.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1330,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 86.36 0)
+			(at 138.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 63.5 90)
+		(at 132.08 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1318,7 +1364,7 @@
 		(fields_autoplaced yes)
 		(uuid "f31237bf-36af-4a9a-a701-ca6ee51b8d9a")
 		(property "Reference" "R5"
-			(at 132.08 57.15 90)
+			(at 132.08 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1372,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 132.08 59.69 90)
+			(at 132.08 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1380,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 132.08 65.278 90)
+			(at 132.08 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 63.5 0)
+			(at 132.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1398,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 63.5 0)
+			(at 132.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
